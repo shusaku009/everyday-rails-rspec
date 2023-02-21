@@ -13,11 +13,9 @@ module Projects
 
     config.generators do |g|
       g.test_framework :rspec,
-        fixtures: false,
         view_specs: false,
         helper_spec: false,
         routing_specs: false
-      g.factory_bot
     end
 
     # Configuration for the application, engines, and railties goes here.

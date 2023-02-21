@@ -62,5 +62,5 @@ RSpec.describe Note, type: :model do
         expect(Note.search("message")).to be_empty
       end
     end
-  end  
+  end
 end
